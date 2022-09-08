@@ -65,7 +65,6 @@ def main():
             for i in range(len(list_frames)):
                 print(i)
                 img = cv2.imread(os.path.join(path_indata, dname, list_frames[i]))
-                print('about to resize')
                 if (type(img) == type(None)):
                     pass
                 else:
